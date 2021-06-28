@@ -29,7 +29,7 @@ export const RestaurantInfoCard = ({ restaurant = {} }) => {
   } = restaurant;
 
   const ratingArray = Array.from(new Array(Math.floor(rating)));
-  console.log(restaurant);
+  // console.log(restaurant);
 
   return (
     <RestaurantCard elevation={5}>
